@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jAvalia09
+  host: jAvalia09
+  disk_quota: 1024M
+  services:
+  - jAvalia09-cloudantNoSQLDB
+  - jAvalia09-iotf-service
+  - Language Translator-x0
